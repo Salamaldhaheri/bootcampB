@@ -8,6 +8,7 @@ def main():
 
     print("Student grade data:")
     print(df.to_string(index=False))
+    print(0)
 
     # Show descriptive statistics for the grade distribution
     stats = df["grade"].describe()
